@@ -651,6 +651,48 @@ section{
     .about-img img{
         width: 90vw;
     }
+    #menu-icon{
+        margin-left: 220px;
+    }
+    .contact form{
+        margin-left: 8px;
+    }
+    .con h2{
+        margin-left: 20px;
+    }
+    .proj h2{
+        margin-left: 20px;
+    }
+    .radial-bar .percentage{
+        position: absolute;
+        top: 50%; 
+        left: 0%;
+        transform: translate(-50%, -50%);
+        font-size: 17px;
+        font-weight: 500;
+        animation: showText 0.5s 1s linear forwards;
+        opacity: 0;
+    }
+    .radial-bar .text{
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        left: 0%; 
+        bottom: -5px;
+        transform: translateX(-50px);
+        font-size: 17px;
+        font-weight: 500;
+        animation: showText 0.5s 1s linear forwards;
+        opacity: 0;
+    }
+    .radial-bars .radial-bar svg{
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translate(-50%, -50%) rotate(-90deg);
+        width: 120px;
+        height: 160px;
+    }
     .footer{
         flex-direction: column-reverse;
     }
